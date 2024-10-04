@@ -59,5 +59,4 @@ python_files = "tests.py test_*.py"
 DJANGO_SETTINGS_MODULE = "tests.settings"
 
 [tool.coverage.run]
-plugins = ["django_coverage_plugin"]
 include = ["drf_excel/*"]
